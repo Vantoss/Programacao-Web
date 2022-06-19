@@ -89,3 +89,23 @@ p{
     margin-right: 100px;
     margin-top:4%;
 }
+.comentario{
+    width: 33%;
+    display: inline-block;
+    margin:0;
+    margin-top: 2%;
+    margin-bottom:2%;
+    background-color:#F9EEC9;
+    border-radius:10px;
+
+    
+}
+.comentario p{
+    font-size:18px;
+    margin-top:60px
+}
+#nome{
+    font-size:18px;
+    margin-top:10px;
+    font-weight:bold
+}
