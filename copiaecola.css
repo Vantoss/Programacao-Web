@@ -63,3 +63,16 @@ nav{
 .teleimg{
     list-style-image: url(tele.png);
 }
+h1{
+    font-size:65px;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    margin-top: 5%;
+}
+p{
+    font-size:35px;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 0px;
+}
