@@ -32,12 +32,12 @@ nav{
     font-size: 24px;
     margin-top: 3.5%;
 }
-a{
+.topo a, .rodapé a{
     text-decoration: none;
     color: rgb(0, 80, 0);
     margin-left: 40px;
 }
-a:hover{
+.topo a:hover, .rodapé a:hover{
     animation-duration: 0.3;
     background-color: rgba(0, 80, 0, 0.13);  
       
