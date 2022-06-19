@@ -64,15 +64,29 @@ nav{
     list-style-image: url(tele.png);
 }
 h1{
-    font-size:65px;
+    font-size:62px;
     text-align:center;
+    font-weight:bold;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 40px;
     margin-top: 5%;
+    color:#886839
 }
 p{
-    font-size:35px;
+    color:#886839;
+    font-size:32px;
     text-align:center;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 0px;
+}
+.bairros1, .bairros2, .bairros3{
+    font-size:21px;
+    color: #886839;
+    font-weight: bold;
+    line-height:32px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top:4%;
 }
