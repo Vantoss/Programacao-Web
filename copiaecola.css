@@ -20,11 +20,11 @@ img{
     padding: 15px 30px;
 }
 .rodapé{
-   padding: 70px 0px;
+   padding: 40px 0px;
    border-top: 4px solid #B39B72;
    width: 100%;
    position: fixed;
-   bottom: 0px;
+   bottom: 0;
 }
 nav{
     font-family: 'Josefin Sans', sans-serif;
@@ -41,4 +41,25 @@ a:hover{
     animation-duration: 0.3;
     background-color: rgba(0, 80, 0, 0.13);  
       
+}
+.rodapé li{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 80, 0);
+    font-size: 20px;
+    margin: 20px 5%;
+}
+.rodapé a{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.mapimg{
+    list-style-image: url(local.png);
+}
+.emailimg{
+    list-style-image: url(email.png);
+}
+.teleimg{
+    list-style-image: url(tele.png);
 }
