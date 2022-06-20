@@ -1,0 +1,60 @@
+.horarioup{
+	background-color: #E6C793;
+	overflow: hidden;
+	border-bottom: 4px solid #B39B72;
+}
+.horariodown{
+	background-color: #E6C793;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.horariodown ul{
+	width: 600px;
+}
+
+.titulos{
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: underline;
+	text-decoration-style: double;
+    color: rgb(0, 80, 0);
+    margin: 20px 0px 20px 200px;
+    width: 400px;
+}
+.dias{
+	list-style: none;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 30px 0px 30px 240px;
+}
+
+.imagem{
+	width: 700px;
+	overflow: hidden;
+	margin: 0px 60px 40px 0px;
+	float: right;
+}
+
+.imglado{
+	width: 700px;
+}
+.horario{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+    color: rgb(0, 80, 0);
+}
+.botao{
+	text-align: center;
+}
+.botaochamar{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	background-color: #09AB00;
+	padding: 30px 70px;
+	display: inline-block;
+	border-radius: 15px;
+	border: 2px solid black;
+	width: 55%;
+}
