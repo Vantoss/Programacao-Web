@@ -1,30 +1,30 @@
 .horarioup{
-	background-color: #E6C793;
 	overflow: hidden;
 	border-bottom: 4px solid #B39B72;
 }
 .horariodown{
-	background-color: #E6C793;
 	padding-bottom: 30px;
 	overflow: hidden;
 }
 .horariodown ul{
-	width: 600px;
+	width: 700px;
 }
 
 .titulos{
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 45px;
 	text-decoration: underline;
 	text-decoration-style: double;
-    color: rgb(0, 80, 0);
+    color: #886839;
     margin: 20px 0px 20px 200px;
     width: 400px;
 }
 .dias{
 	list-style: none;
-	font-size: 20px;
+	font-size: 30px;
 	font-family: 'Josefin Sans', sans-serif;
 	margin: 30px 0px 30px 240px;
+	color: #886839;
 }
 
 .imagem{
@@ -39,9 +39,10 @@
 }
 .horario{
 	text-align: center;
+	font-size: 62px;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
-    color: rgb(0, 80, 0);
+    color: #886839;
 }
 .botao{
 	text-align: center;
