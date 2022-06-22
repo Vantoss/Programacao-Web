@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro do Cliente</title>
+	<style type="text/css">
+		h1{
+			
+		}
+		.formulario{
+			width: 40%;
+			font-family: Times New Roman;
+			font-style: bold;
+		}
+		.formulario input, .formulario textarea{
+			width: 100%;
+			display: block;
+			margin-bottom: 20px;
+		}
+		div{
+			margin-bottom: 25px;
+		}
+		input{
+			border-radius: 5px;
+			background-color: #F9EEC9;
+		}
+		.formulario textarea{
+			width: 369px; 
+			height: 100px;
+			display: block;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		.estado{
+			margin-top: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Cadastro do Cliente</h1>
+	<form>
+		<div>
+			<label>Nome Completo<span>*</span></label>
+			<input required id="nome" maxlength="15" minlength="4" type="text" name="nome" placeholder="Nome Completo">
+		</div>
+		<div>
+			<label>
+				<input type="radio" name="genero" value="Feminino" class="checagem">
+				Feminino
+			</label>
+			<label>
+				<input type="radio" name="genero" value="Masculino" class="checagem">
+				Masculino
+			</label>
+			<label>
+				<input type="radio" name="genero" value="Não Binário" class="checagem">
+				Não Binário
+			</label>
+		</div>
+		<div>
+			<label>CPF</label>
+				<input required type="text" nome="cpf" placeholder="Apenas números">
+		</div>
+		<div>
+			<label>Idade</label>
+			<input type="number" name="numero">
+		</div>
+		<div>
+			<label>Data de Aniversário</label>
+			<input type="date" name="data">
+		</div>
+		<div>
+			<label for="cep">CEP</label>
+				<input required id="cep" type="text">
+			<label for="logradouro">Logradouro</label>
+				<input id="logradouro" type="text" name="">
+			<label for="numero">Número</label>
+				<input type="" name="">
+			<label for="complemento">Complemento</label>
+				<input type="text" name="">
+			<label for="bairro">Bairro</label>
+				<input required id="bairro" type="text" name="">
+			</div>
+			<div>
+				<label class="estado" for="uf">Estado</label>
+					<select id="uf">
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceará</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO">Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MTS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PA">Pará</option>
+						<option value="PB">Paraíba</option>
+						<option value="PR">Paraná</option>
+						<option value="PE">Pernambuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SP">São Paulo</option>
+						<option value="SE">Sergipe</option>
+						<option value="TO">Tocantis</option>
+					</select>
+		</div>
+		
+		<div>
+			<label>Celular</label>
+			<input type="tel" name="celular" placeholder="Apenaas números" maxlength="11">
+		</div>
+		
+		<div>	
+			<label>Telefone fixo (opcional</label>
+			<input type="tel" name="telefone" placeholder="Apenas números" maxlength="11">
+		</div>
+		
+		<div>
+			<label>E-mail</label>
+			<input required type="email" name="email" placeholder="exemplo@exemplo.com">
+		</div>
+		
+		<div>
+			<select name="canais">
+				<option>--Como conheceu a empresa--</option>
+				<option>Revistas</option>
+				<option>Jornais</option>
+				<option>Televisão</option>
+				<option>Instagram</option>
+				<option>Twitter</option>
+			</select>
+		</div>
+		
+		<div>
+			<label>Observações/Comentários</label>
+			<div>
+			<textarea type="text" name="campo_observacao" placeholder="Sua Mensagem - Limite de 100 caracteres" maxlength="100"></textarea>
+			</div>
+		</div>
+		<div>
+			<label>Data de Inclusão no Cadastro</label>
+			<input type="date" name="data">
+		</div>
+		<input type="reset" name="limpar" value="Limpar">
+		<button name="enviar">Cadastrar</button>
+	</form>
+</body>
+</html>
