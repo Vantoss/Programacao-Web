@@ -1,0 +1,36 @@
+h1{
+    color: #886839;
+    font-size: 62px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    margin-top: 5%;
+}
+.formulario{
+    width: 40%;
+    font-family: Josefin sans;
+    font-style: bold;
+}
+.formulario input{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+div{
+    margin-bottom: 25px;
+}
+input{
+    border-radius: 5px;
+    background-color: #F9EEC9;
+}
+.formulario textarea{
+    width: 369px; 
+    height: 100px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.estado{
+    margin-top: 5px;
+}
