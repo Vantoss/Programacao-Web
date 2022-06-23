@@ -1,0 +1,62 @@
+h1{
+    font-size:62px;
+    text-align:center;
+    font-weight:bold;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    margin-top: 5%;
+    color:#886839
+}
+p{
+    color:#886839;
+    font-size:32px;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bairros1, .bairros2, .bairros3{
+    font-size:21px;
+    color: #886839;
+    font-weight: bold;
+    line-height:32px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top:4%;
+}
+.comentario{
+    width: 33%;
+    display: inline-block;
+    margin:0;
+    margin-top: 5px;
+    background-color:#F9EEC9;
+    border-radius:10px;
+
+    
+}
+.comentario p{
+    font-size:18px;
+    margin-top:10px;
+}
+#rating{
+    margin-left:215px;
+}
+#nome{
+    font-size:18px;
+    margin-top:10px;
+    font-weight:bold;
+}
+.mapa{
+    text-align:center;
+    margin-top:4%;
+    margin-bottom:4%;
+}
+.mapa img{
+    border:8px;
+    border-style: ridge;
+    border-color:#F9EEC9;
+    border-radius:10px
+}
+.foot{
+    margin-bottom:70px
+}
