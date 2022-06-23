@@ -9,16 +9,21 @@ h1{
 }
 .formulario{
     width: 40%;
-    font-family: Josefin sans;
-    font-style: bold;
+    font-family: Josefin sans, sans-serif;
+    font-weight: bold;
 }
 .formulario input{
-    width: 100%;
+    width: 80%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 div{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+}
+label{
+    color: #886839;
+    font-family: Josefin sans, sans-serif;
+    font-weight: bold;
 }
 input{
     border-radius: 5px;
@@ -30,6 +35,9 @@ input{
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+div .genero{
+    vertical-align: middle; margin-top: -1px;
 }
 .estado{
     margin-top: 5px;
