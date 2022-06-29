@@ -29,16 +29,33 @@ input{
     border-radius: 5px;
     background-color: #F9EEC9;
 }
-.formulario textarea{
-    width: 369px; 
-    height: 100px;
+textarea{
+    width: 431px; 
+    height: 133px;
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
+    resize: none;
+    border-color:#886839;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    font-style: inherit;
+
 }
-div .genero{
+.genero{
     vertical-align: middle; margin-top: -1px;
 }
 .estado{
     margin-top: 5px;
+}
+button{
+    background-color: #886839;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
