@@ -1,0 +1,41 @@
+h1{
+    color: #886839;
+    font-size: 62px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    margin-top: 5%;
+}
+.formulario{
+    width: 40%;
+    font-family: Josefin sans, sans-serif;
+    font-weight: bold;
+}
+.formulario input{
+    width: 80%;
+    display: block;
+    margin-bottom: 10px;
+}
+div{
+    margin-bottom: 15px;
+}
+label{
+    color: #886839;
+    font-family: Josefin sans, sans-serif;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    background-color: #F9EEC9;
+}
+button{
+    background-color: #886839;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
