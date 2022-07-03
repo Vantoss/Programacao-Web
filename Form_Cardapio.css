@@ -1,16 +1,27 @@
 h1{
     color: #886839;
-    font-size: 62px;
+    font-size: 50px;
     text-align: center;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 40px;
     margin-top: 5%;
 }
+h2{
+    color: #886839;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    color: #886839;
+    font-size: 20px;
+    font-weight: bold;
+}
 .formulario{
-    width: 40%;
+    width: 60%;
     font-family: Josefin sans, sans-serif;
     font-weight: bold;
+    margin-top: 5%;
 }
 .formulario input{
     width: 80%;
@@ -19,6 +30,13 @@ h1{
 }
 div{
     margin-bottom: 15px;
+}
+.texto{
+    background-color: whitesmoke;
+    width: 400px;
+    border: 5px solid #886839;
+    padding: 10px;
+    margin: 10px;
 }
 label{
     color: #886839;
