@@ -10,11 +10,13 @@ h1{
 h2{
     color: #886839;
     font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
 }
 h3{
     color: #886839;
     font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
 }
 .formulario{
@@ -33,10 +35,15 @@ div{
 }
 .texto{
     background-color: whitesmoke;
-    width: 400px;
+    width: 500px;
     border: 5px solid #886839;
     padding: 10px;
     margin: 10px;
+    color: #886839;
+    font-family: Josefin sans, sans-serif;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
 }
 label{
     color: #886839;
@@ -49,6 +56,7 @@ input{
 }
 button{
     background-color: #886839;
+    font-family: 'Josefin Sans', sans-serif;
     border: none;
     color: white;
     padding: 15px 32px;
