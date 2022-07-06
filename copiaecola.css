@@ -55,11 +55,11 @@ nav{
     font-size: 20px;
 }
 .mapimg{
-    list-style-image: url(local.png);
+    list-style-image: url(imagens/local.png);
 }
 .emailimg{
-    list-style-image: url(email.png);
+    list-style-image: url(imagens/email.png);
 }
 .teleimg{
-    list-style-image: url(tele.png);
+    list-style-image: url(imagens/tele.png);
 }
