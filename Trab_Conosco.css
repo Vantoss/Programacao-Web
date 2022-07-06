@@ -7,6 +7,7 @@ h1{
     line-height: 40px;
     margin-top: 5%;
 }
+
 .formulario{
     width: 40%;
     font-family: Josefin sans, sans-serif;
@@ -16,6 +17,9 @@ h1{
     width: 80%;
     display: block;
     margin-bottom: 10px;
+}
+span{
+    color: #F01501;
 }
 div{
     margin-bottom: 15px;
@@ -41,13 +45,6 @@ textarea{
     border-width: 3px;
     border-radius: 5px;
     font-style: inherit;
-
-}
-.genero{
-    vertical-align: middle; margin-top: -1px;
-}
-.estado{
-    margin-top: 5px;
 }
 button{
     background-color: #886839;

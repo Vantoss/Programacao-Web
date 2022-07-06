@@ -54,6 +54,7 @@
 			<div>
 				<label class="estado" for="uf">Estado</label>
 					<select id="uf">
+						<option>--Selecione aqui--</option>
 						<option value="AC">Acre</option>
 						<option value="AL">Alagoas</option>
 						<option value="AP">Amapá</option>
@@ -113,7 +114,7 @@
 		<div>
 			<label>Observações/Comentários</label>
 			<div>
-			<textarea type="text" name="campo_observacao" placeholder="Sua Mensagem - Limite de 100 caracteres" maxlength="100"></textarea>
+			<textarea id="mensagem" type="text" name="campo_observacao" placeholder="Sua Mensagem - Limite de 100 caracteres" maxlength="100"></textarea>
 			</div>
 		</div>
 		<div>
@@ -121,7 +122,7 @@
 			<input type="date" name="data">
 		</div>
 		<input type="reset" name="limpar" value="Limpar">
-		<button name="enviar">Cadastrar</button>
+		<button name="cadastrar">Cadastrar</button>
 	</form>
 </body>
 </html>
