@@ -131,3 +131,17 @@ li span{
 	color: #458216;
 	display: none;
 }
+.botao2{
+	margin: 20px 500px;
+	text-align: center;
+}
+.promo{
+	text-decoration: none;
+	background-color: #F56E00;
+	padding: 20px 70px;
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 15px;
+	font-size: 30px;
+	color: black;
+}
