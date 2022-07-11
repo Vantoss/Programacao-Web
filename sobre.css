@@ -6,13 +6,33 @@
     padding: 0px;
 }
 #logotipo{
-    width: 135px;
+    width: 130px;
     float: left;
-    margin-left: 50px;
+    margin-left: 30px;
 }
-header{
+ /* header{
+   position: fixed; 
+} */
+#menu{
     position: fixed;
     width: 100%;
+    top: 0%;
+    left: 0%;
+}
+main
+{
+    margin: 200px 60px 30px 60px;
+    font-family: 'Merriweather',  sans-serif;
+}
+h1
+{
+    padding-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    margin-right: 500px;
+    text-align: justify;
+    padding-bottom: 20px;
 }
 a{
     color: rgb(0, 80, 0);
@@ -29,10 +49,10 @@ nav{
     display: flex;
     align-items: center;
     background-color: #D3B786;
-    height: 28vh;
+    height: 149.95px;
     justify-content: space-around;
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 24px;
     border-bottom: 4px solid #B39B72;
 }
 .navlist {
@@ -46,5 +66,46 @@ li {
     margin-right: 15px;
 }
 ul.navlist {
-    margin-right: 147px;
+    margin-right: 120px;
 }
+.rodapé{
+    background-color: #D3B786;
+    overflow: hidden;
+}
+.rodapé{
+    padding: 40px 0px;
+    border-top: 4px solid #B39B72;
+    width: 100%;
+    position: static;
+    bottom: 0;
+}
+.rodapé a{
+    text-decoration: none;
+    color: rgb(0, 80, 0);
+    margin-left: 40px;
+}
+.rodapé a:hover{
+    animation-duration: 0.3;
+    background-color: rgba(0, 80, 0, 0.13); 
+}
+.rodapé li{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 80, 0);
+    font-size: 20px;
+    margin: 20px 5%;
+}
+.rodapé a{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.mapimg{
+    list-style-image: url(local.png);
+}
+.emailimg{
+    list-style-image: url(email.png);
+}
+.teleimg{
+    list-style-image: url(tele.png);
+} 
