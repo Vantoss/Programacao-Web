@@ -13,6 +13,23 @@
 	overflow: hidden;
 	padding-bottom: 80px;
 }
+.botão{
+	float: right;
+	margin-right: 250px;
+	margin-top: 200px;
+	width: 90px;
+}
+.fazer{
+	text-decoration: none;
+	background-color: #09AB00;
+	padding: 40px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 30px;
+	color: black;
+	position: fixed;
+}
 .lista1{
 	margin-top: 40px;
 	margin-left: 350px;
@@ -113,4 +130,18 @@ li span{
 	margin-left: 16px;
 	color: #458216;
 	display: none;
+}
+.botao2{
+	margin: 20px 500px;
+	text-align: center;
+}
+.promo{
+	text-decoration: none;
+	background-color: #F56E00;
+	padding: 20px 70px;
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 15px;
+	font-size: 30px;
+	color: black;
 }
