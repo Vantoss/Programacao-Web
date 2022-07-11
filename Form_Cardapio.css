@@ -1,3 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logotipo{
+    width: 130px;
+    float: left;
+    margin-left: 30px;
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+a{
+    color: rgb(0, 80, 0);
+    text-decoration: none;
+    font-family: 'josefin sans'; 
+    text-align: center;
+}
+a:hover{
+    pointer-events:stroke ;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #D3B786;
+    height: 149.95px;
+    justify-content: space-around;
+    padding-left: 20px;
+    font-size: 24px;
+    border-bottom: 4px solid #B39B72;
+}
+.navlist {
+    list-style: none;
+display: flex;
+}
+li {
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+ul.navlist {
+    margin-right: 120px;
+}
+.rodapé{
+    background-color: #D3B786;
+    overflow: hidden;
+}
+.rodapé{
+    padding: 40px 0px;
+    border-top: 4px solid #B39B72;
+    width: 100%;
+    position: static;
+    bottom: 0;
+}
+.rodapé a{
+    text-decoration: none;
+    color: rgb(0, 80, 0);
+    margin-left: 40px;
+}
+.rodapé a:hover{
+    animation-duration: 0.3;
+    background-color: rgba(0, 80, 0, 0.13); 
+}
+.rodapé li{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 80, 0);
+    font-size: 20px;
+    margin: 20px 5%;
+}
+.rodapé a{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.mapimg{
+    list-style-image: url(local.png);
+}
+.emailimg{
+    list-style-image: url(email.png);
+}
+.teleimg{
+list-style-image: url(tele.png);
+} 
 h1{
     color: #886839;
     font-size: 50px;

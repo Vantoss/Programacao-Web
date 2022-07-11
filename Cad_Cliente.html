@@ -9,12 +9,31 @@
 
 </head>
 <body>
+	<header>
+        <div id="menu">
+            <nav>
+                <img src="imagens/logopizza.png" alt="" id="logotipo">
+                <ul  class="navlist">
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Cardápio</a></li>
+                    <li><a href="">Horário</a></li>
+                    <li><a href="">Área de Entrega</a></li>
+                    <li><a href="" class="pedido">Faça Seu Pedido</a></li>
+                    <li><a href="https://www.facebook.com/" class="fa fa-facebook" id="sn"></a></li>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram" id="sn"></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	
 	<h1>Cadastro do Cliente</h1>
 	<form>
+		
 		<div>
 			<label>Nome Completo<span>*</span></label>
 			<input required id="nome" maxlength="15" minlength="4" type="text" name="nome" placeholder="Nome Completo">
 		</div>
+		
 		<div class="genero">
 			<label>Feminino
 				<input type="radio" name="genero" value="Feminino" class="checagem">
@@ -126,5 +145,15 @@
 		<input type="reset" name="limpar" value="Limpar">
 		<button name="cadastrar">Cadastrar</button>
 	</form>
+	<div>
+        <footer class="rodapé">
+            <ul>
+                <li class="mapimg">Rua Da Alegria, 1234</li>
+                <li class="emailimg">pizzariaads@senac.com.br</li>
+                <li class="teleimg">(51) 3221-1223</li>
+            </ul>
+            <a href="#">Fale Conosco</a>
+        </footer>
+    </div>
 </body>
 </html>
