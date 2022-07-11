@@ -1,0 +1,67 @@
+h1{
+    color: #886839;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    margin-top: 5%;
+}
+h2{
+    color: #886839;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+h3{
+    color: #886839;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.formulario{
+    width: 60%;
+    font-family: Josefin sans, sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.formulario input{
+    width: 80%;
+    display: block;
+    margin-bottom: 10px;
+}
+div{
+    margin-bottom: 15px;
+}
+.texto{
+    background-color: whitesmoke;
+    width: 500px;
+    border: 5px solid #886839;
+    padding: 10px;
+    margin: 10px;
+    color: #886839;
+    font-family: Josefin sans, sans-serif;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    color: #886839;
+    font-family: Josefin sans, sans-serif;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    background-color: #F9EEC9;
+}
+button{
+    background-color: #886839;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
