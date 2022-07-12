@@ -6,10 +6,14 @@ body{
     background-color: white;
     margin: 0px;
 }
-.topo img{
+.logopizza{
     width: 130px;
     float: left;
     margin-left: 30px;
+}
+.rede{
+    width: 30px;
+    margin-left: 40px;
 }
 .topo, .rodapé{
     background-color: #D3B786;
@@ -30,12 +34,12 @@ nav{
     font-family: 'Josefin Sans', sans-serif;
     /*font-size: 1.2em;*/
     font-size: 24px;
-    margin-top: 3.5%;
+    margin-top: 4%;
 }
 .topo a, .rodapé a{
     text-decoration: none;
     color: rgb(0, 80, 0);
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .topo a:hover, .rodapé a:hover{
     animation-duration: 0.3;
