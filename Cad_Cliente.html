@@ -4,37 +4,28 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cadastro do Cliente</title>
-	<link rel="stylesheet" type="text/css" href="Cad_Cliente.css">"
+	<link rel="stylesheet" type="text/css" href="Cad_Cliente.css">
 	<link rel="stylesheet" type="text/css" href="copiaecola.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
-	<header>
-        <div id="menu">
-            <nav>
-                <img src="imagens/logopizza.png" alt="" id="logotipo">
-                <ul  class="navlist">
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Cardápio</a></li>
-                    <li><a href="">Horário</a></li>
-                    <li><a href="">Área de Entrega</a></li>
-                    <li><a href="" class="pedido">Faça Seu Pedido</a></li>
-                    <li><a href="https://www.facebook.com/" class="fa fa-facebook" id="sn"></a></li>
-                    <a href="https://www.instagram.com/" class="fa fa-instagram" id="sn"></a>
-                </ul>
-            </nav>
-        </div>
-    </header>
-	
+	<div class="topo">
+        <img src="imagens/logopizza.png" alt="Logo da Pizzaria">
+        <nav>
+            <a class="img" href="imagens/logopizza.png"></a>
+            <a href="">Sobre</a>
+            <a href="cardapioler.html">Cardápio</a>
+            <a href="horario.html">Horário</a>
+            <a href="areadeentrega.html">Área de Entrega</a>
+            <a href="Form_Cardapio.html">Faça Seu Pedido</a>
+            <a href="">Redes Sociais</a>
+        </nav>
+    </div>
 	<h1>Cadastro do Cliente</h1>
 	<form>
-		
 		<div>
 			<label>Nome Completo<span>*</span></label>
 			<input required id="nome" maxlength="15" minlength="4" type="text" name="nome" placeholder="Nome Completo">
 		</div>
-		
 		<div class="genero">
 			<label>Feminino
 				<input type="radio" name="genero" value="Feminino" class="checagem">
@@ -146,15 +137,13 @@
 		<input type="reset" name="limpar" value="Limpar">
 		<button name="cadastrar">Cadastrar</button>
 	</form>
-	<div>
-        <footer class="rodapé">
-            <ul>
-                <li class="mapimg">Rua Da Alegria, 1234</li>
-                <li class="emailimg">pizzariaads@senac.com.br</li>
-                <li class="teleimg">(51) 3221-1223</li>
-            </ul>
-            <a href="#">Fale Conosco</a>
-        </footer>
-    </div>
+	<footer class="rodapé">
+        <ul>
+            <li class="mapimg">Rua Da Alegria, 1234</li>
+            <li class="emailimg">pizzariaads@senac.com.br</li>
+            <li class="teleimg">(51) 3221-1223</li>
+        </ul>
+        <a href="#">Fale Conosco</a>
+    </footer>
 </body>
 </html>
