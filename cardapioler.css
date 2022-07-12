@@ -3,7 +3,7 @@
 	border-bottom: 4px solid #B39B72;
 }
 .cardapio{
-	margin: 41px 800px;
+	margin: 41px 45%;
 	font-size: 62px;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
@@ -15,8 +15,8 @@
 }
 .botão{
 	float: right;
-	margin-right: 250px;
-	margin-top: 200px;
+	margin-right: 20%;
+	margin-top: 10%;
 	width: 90px;
 }
 .fazer{
@@ -32,24 +32,24 @@
 }
 .lista1{
 	margin-top: 40px;
-	margin-left: 350px;
-	margin-right: 300px;
+	margin-left: 25%;
+	margin-right: 30%;
 	border: 2px solid black;
 	background-color: #F7F7F7;
 	width: 1000px;
 }
 .lista2{
 	margin-top: 50px;
-	margin-left: 350px;
-	margin-right: 300px;
+	margin-left: 25%;
+	margin-right: 30%;
 	width: 1000px;
 	border: 2px solid black;
 	background-color: #F7F7F7;
 }
 .lista3{
 	margin-top: 50px;
-	margin-left: 350px;
-	margin-right: 300px;
+	margin-left: 25%;
+	margin-right: 30%;
 	width: 1000px;
 	border: 2px solid black;
 	background-color: #F7F7F7;
