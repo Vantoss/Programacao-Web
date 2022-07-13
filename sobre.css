@@ -27,15 +27,18 @@ main
 h1
 {
     padding-bottom: 20px;
+    color: #886839;
 }
 h2{
     padding: 15px 0px 15px 0px;
 }
 p{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 680px;
     text-align: justify;
     padding-bottom: 20px;
+    color: #886839;
+    font-family: 'josefin sans'
 }
 a{
     color: rgb(0, 80, 0);
