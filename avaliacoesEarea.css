@@ -38,10 +38,10 @@ p{
     font-size:18px;
     margin-top:10px;
 }
-#rating{
+.rating{
     margin-left:215px;
 }
-#nome{
+.nome{
     font-size:18px;
     margin-top:10px;
     font-weight:bold;
