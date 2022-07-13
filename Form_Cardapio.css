@@ -9,8 +9,7 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 40px;
     margin-top: 5%;
-    border-bottom: 4px solid #B39B72;
-    margin-bottom: 5%;
+    padding: 5%;
 }
 h2{
     color: #886839;
