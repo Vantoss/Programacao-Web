@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,8 +16,8 @@
             <a href="horario.html">Horário</a>
             <a href="areadeentrega.html">Área de Entrega</a>
             <a href="Form_Cardapio.html">Faça Seu Pedido</a>
-            <img class="rede"src="imagens/instalogo.png">
-            <img class="rede"src="imagens/facelogo.png">
+            <img class="rede" src="imagens/instalogo.png" alt="Logo do Instagram">
+            <img class="rede" src="imagens/facelogo.png" alt="Logo do Facebook">
         </nav>
     </div>
 
@@ -25,12 +25,12 @@
 	<form>
 		<div>
 			<label>Nome Completo<span>*</span></label>
-			<input id="nome" maxlength="10" minlength="4" required type="text" name="nome">
+			<input id="nome" maxlength="10" minlength="4" required type="text" name="name">
 		</div>
 
 		<div>
 			<label>CPF</label>
-				<input required type="text" nome="cpf" placeholder="Apenas números">
+				<input required type="text" placeholder="Apenas números">
 		</div>
 
 		<div>
@@ -46,7 +46,7 @@
 		<div>
 			<label>Área de Interesse</label>
 			<datalist id="áreas">
-				<optgroup>--Selecione--</optgroup>
+				<option>--Selecione--</option>
 				<option>Logística</option>
 				<option>Financeiro</option>
 				<option>Recursos Humanos</option>
@@ -61,12 +61,12 @@
 		</div>
 
 		<div>
-			<textarea id="mensagem" type="text" name="campo_observacao" placeholder="Faça uma breve descrição de si mesmo e de suas competências" maxlength="400"></textarea>
+			<textarea id="mensagem" name="campo_observacao" placeholder="Faça uma breve descrição de si mesmo e de suas competências" maxlength="400"></textarea>
 		</div>
 
 		<div>
 			<label>Anexar Currículo</label>
-			<input type="file" name="arquivo" placeholder="Escolher arquivos">
+			<input type="file" name="arquivo">
 			
 		</div>
 		<input type="reset" name="limpar" value="Limpar">
