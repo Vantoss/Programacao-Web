@@ -14,7 +14,6 @@
    position: fixed; 
 } */
 #menu{
-    position: fixed;
     width: 100%;
     top: 0%;
     left: 0%;
@@ -22,7 +21,7 @@
 }
 main
 {
-    margin: 200px 60px 30px 60px;
+    margin: 100px 60px 30px 60px;
     font-family: 'Merriweather',  sans-serif;
 }
 h1
@@ -45,15 +44,15 @@ a{
     text-align: center;
 }
 a:hover{
+    animation-duration: 0.3;
+    background-color: rgba(0, 80, 0, 0.13);
     pointer-events:stroke ;
-    text-decoration: underline;
-    transition: 0.3s;
 }
 nav{
     display: flex;
     align-items: center;
     background-color: #D3B786;
-    height: 149.95px;
+    height: 145.5px;
     justify-content: space-around;
     padding-left: 20px;
     font-size: 24px;
@@ -70,7 +69,8 @@ li {
     margin-right: 15px;
 }
 ul.navlist {
-    margin-right: 120px;
+    margin-right: 100px;
+    margin-top: 36px;
 }
 .rodapé{
     background-color: #D3B786;
@@ -106,12 +106,16 @@ ul.navlist {
 }
 .mapimg{
     list-style-image: url(imagens/local.png);
+    padding-left: 0px;
 }
 .emailimg{
     list-style-image: url(imagens/email.png);
+    padding-left: 0px;
+
 }
 .teleimg{
     list-style-image: url(imagens/tele.png);
+    padding-left: 0px;
 }
 .rodapé ul{
     margin-left: 40px;
@@ -179,4 +183,12 @@ input{
 }
 #slide4:checked ~ .s4{
     margin-left: -75%;
+}
+.rede{
+    width: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#sn{
+    margin-top: -20.5px;
 }
