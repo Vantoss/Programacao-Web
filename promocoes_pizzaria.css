@@ -9,7 +9,8 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 40px;
     margin-top: 5%;
-    border-bottom: 4px solid #B39B72
+    border-bottom: 4px solid #B39B72;
+    margin-bottom: 5%;
 }
 .anuncio{
     background-color: whitesmoke;
