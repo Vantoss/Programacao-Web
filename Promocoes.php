@@ -11,11 +11,11 @@
 	<div class="topo">
         <img class="logopizza" src="imagens/logopizza.png" alt="Logo da Pizzaria">
         <nav>
-            <a href="sobre.html">Sobre</a>
-            <a href="cardapioler.html">Cardápio</a>
-            <a href="horario.html">Horário</a>
-            <a href="areadeentrega.html">Área de Entrega</a>
-            <a href="Form_Cardapio.html">Faça Seu Pedido</a>
+            <a href="sobre.php">Sobre</a>
+            <a href="cardapioler.php">Cardápio</a>
+            <a href="horario.php">Horário</a>
+            <a href="areadeentrega.php">Área de Entrega</a>
+            <a href="Form_Cardapio.php">Faça Seu Pedido</a>
             <img class="rede" src="imagens/instalogo.png" alt="Logo do Instagram">
             <img class="rede" src="imagens/facelogo.png" alt="Logo do Facebook">
         </nav>
