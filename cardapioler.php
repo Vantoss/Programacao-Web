@@ -3,23 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="copiaecola.css">
 	<link rel="stylesheet" type="text/css" href="cardapioler.css">
 	<title>Cardápio</title>
 </head>
 <body>
-    <div class="topo">
-        <img class="logopizza" src="imagens/logopizza.png" alt="Logo da Pizzaria">
-        <nav>
-            <a href="sobre.php">Sobre</a>
-            <a href="cardapioler.php">Cardápio</a>
-            <a href="horario.php">Horário</a>
-            <a href="areadeentrega.php">Área de Entrega</a>
-            <a href="Form_Cardapio.php">Faça Seu Pedido</a>
-            <img class="rede" src="imagens/instalogo.png" alt="Link do Instagram">
-            <img class="rede" src="imagens/facelogo.png" alt="Link do Facebook">
-        </nav>
-    </div>
+    <?php require "copiaecola.php";?>
     <main>
         <div class="cardup">
         	<h1 class="cardapio">Cardápio</h1>
@@ -190,13 +178,6 @@
             </div>
         </div>
     </main>
-    <footer class="rodapé">
-        <ul>
-            <li class="mapimg">Rua Da Alegria, 1234</li>
-            <li class="emailimg">pizzariaads@senac.com.br</li>
-            <li class="teleimg">(51) 3221-1223</li>
-        </ul>
-        <a href="https://web.whatsapp.com/send?phone=555192985520" target="_blank"><img src='imagens/whatsapp.png' width="34px"> Fale Conosco</a>
-    </footer>
+    <?php require "copiaecolafooter.php";?>
 </body>
 </html>

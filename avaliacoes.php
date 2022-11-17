@@ -11,18 +11,7 @@
 
 <body>
 
-    <div class="topo">
-        <img class="logopizza" src="imagens/logopizza.png" alt="Logo da Pizzaria">
-        <nav>
-            <a href="sobre.php">Sobre</a>
-            <a href="cardapioler.php">Cardápio</a>
-            <a href="horario.php">Horário</a>
-            <a href="areadeentrega.php">Área de Entrega</a>
-            <a href="Form_Cardapio.php">Faça Seu Pedido</a>
-            <img class="rede" src="imagens/instalogo.png" alt="Logo instagram">
-            <img class="rede" src="imagens/facelogo.png" alt="Logo facebook">
-        </nav>
-    </div>
+    <?php require "copiaecola.php";?>
    
     <section>
         <div class=titulobord><h1>Avaliações dos Clientes</h1></div>
@@ -65,14 +54,7 @@
         </div>
     </section>
 
-    <footer class="rodapé">
-        <ul>
-            <li class="mapimg">Rua Da Alegria, 1234</li>
-            <li class="emailimg">pizzariaads@senac.com.br</li>
-            <li class="teleimg">(51) 3221-1223</li>
-        </ul>
-        <a href="https://web.whatsapp.com/send?phone=555192985520" target="_blank"><img src='imagens/whatsapp.png' width="34px"> Fale Conosco</a>
-    </footer>
+    <?php require "copiaecolafooter.php";?>
 </body>
 
 </html>

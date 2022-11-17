@@ -21,13 +21,5 @@
         </nav>
     </div>
     
-    <footer class="rodapé">
-        <ul>
-            <li class="mapimg">Rua Da Alegria, 1234</li>
-            <li class="emailimg">pizzariaads@senac.com.br</li>
-            <li class="teleimg">(51) 3221-1223</li>
-        </ul>
-        <a href="https://web.whatsapp.com/send?phone=555192985520" target="_blank"><img src='imagens/whatsapp.png' width="34px"> Fale Conosco</a>
-    </footer>
 </body>
 </html>

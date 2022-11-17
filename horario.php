@@ -4,23 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="copiaecola.css">
     <link rel="stylesheet" type="text/css" href="horario.css">
     <title>Horário</title>
 </head>
 <body>
-    <div class="topo">
-        <img class="logopizza" src="imagens/logopizza.png" alt="Logo da Pizzaria">
-        <nav>
-            <a href="sobre.php">Sobre</a>
-            <a href="cardapioler.php">Cardápio</a>
-            <a href="horario.php">Horário</a>
-            <a href="areadeentrega.php">Área de Entrega</a>
-            <a href="Form_Cardapio.php">Faça Seu Pedido</a>
-            <img class="rede" src="imagens/instalogo.png" alt="Link para Instagram">
-            <img class="rede" src="imagens/facelogo.png" alt="Link para Facebook">
-        </nav>
-    </div>
+    <?php require "copiaecola.php";?>
     <main>
         <div class="horarioup">
             <h1 class="horario">Horários de Atendimento</h1>
@@ -46,13 +34,6 @@
             </div>
         </div>
     </main>
-    <footer class="rodapé">
-        <ul>
-            <li class="mapimg">Rua Da Alegria, 1234</li>
-            <li class="emailimg">pizzariaads@senac.com.br</li>
-            <li class="teleimg">(51) 3221-1223</li>
-        </ul>
-        <a href="https://web.whatsapp.com/send?phone=555192985520" target="_blank"><img src='imagens/whatsapp.png' width="34px"> Fale Conosco</a>
-    </footer>
+    <?php require "copiaecolafooter.php"; ?>
 </body>
 </html>
