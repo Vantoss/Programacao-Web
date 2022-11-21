@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="sobre.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pizzaria Porto Gioioso</title>
+    <link rel="stylesheet" type="text/css" href="sobre.css">
+    <!--<link rel="stylesheet" href="copiaecola.css">
+    <link rel="stylesheet" href="copiaecolafooter.css">-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 </head>
 <body>
     <header>
-        <div id="menu">
+        <?php require "copiaecola.php"?>
+        <!--<div id="menu">
             <nav>
                 <img src="imagens/logopizza.png" alt="" id="logotipo">
                 <ul  class="navlist">
@@ -25,7 +28,7 @@
                     </div>
                 </ul>
             </nav>
-        </div>
+        </div>-->
     </header>
     <main>
         <article>
@@ -78,15 +81,15 @@
     </main>
     <img src="imagens/selos.png" alt="" class="selo">
 
+    <?php require "copiaecolafooter.php"?>
+    <!--<footer class="rodapé">
+        <ul>
+            <li class="mapimg">Rua Da Alegria, 1234</li>
+            <li class="emailimg">pizzariaads@senac.com.br</li>
+            <li class="teleimg">(51) 3221-1223</li>
+        </ul>
+        <a href="https://web.whatsapp.com/send?phone=555192985520" target="_blank"><img src='imagens/whatsapp.png' width="34px" alt="Link do WhatsApp"> Fale Conosco</a>
 
-<footer class="rodapé">
-    <ul>
-        <li class="mapimg">Rua Da Alegria, 1234</li>
-        <li class="emailimg">pizzariaads@senac.com.br</li>
-        <li class="teleimg">(51) 3221-1223</li>
-    </ul>
-    <a href="https://web.whatsapp.com/send?phone=555192985520" target="_blank"><img src='imagens/whatsapp.png' width="34px" alt="Link do WhatsApp"> Fale Conosco</a>
-
-</footer>
+    </footer>-->
 </body>
 </html>
