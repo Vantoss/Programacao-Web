@@ -12,16 +12,22 @@
 </head>
 <body>
 
+    <?php
+        if (isset($_POST['send_admin'])) {
+            loginAdmin($dbconn, $_POST['login'], $_POST['senha']);
+        }
+    ?>
+
     <div class="box">
     <h1>Login</h1>
     <form action="" method="post">
         <div>
             <label>Login</label>
-            <input type="text" name="" id="" required>
+            <input type="text" name="login" id="" required>
         </div>
         <div>
             <label>Senha</label>
-            <input type="password" name="" id="" required>
+            <input type="password" name="senha" id="" required>
         </div>
         <input type="submit" name="send_admin" value="Logar">
     </form>
