@@ -16,6 +16,7 @@
             <a href="horario.php">Horário</a>
             <a href="areadeentrega.php">Área de Entrega</a>
             <a href="Form_Cardapio.php">Faça Seu Pedido</a>
+            <a href="login.php">Login</a>
             <img class="rede"src="imagens/instalogo.png">
             <img class="rede"src="imagens/facelogo.png">
         </nav>
