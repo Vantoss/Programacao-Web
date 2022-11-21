@@ -1,3 +1,4 @@
+<?php require 'functions.php'; ?>
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -11,6 +12,7 @@
 </head>
 <body>
 
+    <div class="box">
     <h1>Login</h1>
     <form action="" method="post">
         <div>
@@ -23,6 +25,7 @@
         </div>
         <input type="submit" value="Logar">
     </form>
+    </div>
 
 </body>
 </html>
