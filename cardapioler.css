@@ -104,7 +104,7 @@
 #divisor1, #divisor2, #divisor3, #divisor4, #divisor5, #divisor6, #divisor7{
 	padding: 10px 0px 5px 5px;
 	color: #56A31C;
-	font-size: 40px;
+	font-size: 43px;
 	margin-left: 0px;
 }
 #divisor1, #divisor3, #divisor4{
@@ -117,7 +117,6 @@
 }
 li span{
 	float: right;
-	padding-right: 20px;
 	color: #458216;
 }
 
@@ -145,4 +144,25 @@ li span{
 	border-radius: 15px;
 	font-size: 30px;
 	color: black;
+}
+
+.addButton{
+	border: none;
+	border-radius: 5px;
+	background-color: #9bc790c7;
+	color:#386b11;
+	padding: 5px;
+	float: right;
+	font-size:larger;
+	margin-right: 30px;
+	margin-top: 5px;
+	width:90px;
+}
+.addButton:hover{
+	background-color: #6e9165; 
+	color:#295409;
+}
+.addButton:active{
+	background-color: #57754f; 
+	color:#1b3606;
 }

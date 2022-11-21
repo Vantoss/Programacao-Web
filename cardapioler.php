@@ -15,79 +15,79 @@
         <div class="cardown">
         	<div class="lista1">
 	        	<ul class="salgado"> <div>Salgadas</div>
-		        	<li id="divisor1">Tradicionais <span>25cm 30cm 35cm</span></li>
-		        	<li>Calabresa <span>R$50 - R$60 - R$70</span>
+		        	<li id="divisor1">Tradicionais</li>
+		        	<li>Calabresa <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, linguiça calabresa e cebola</li>
                         </ul>
                     </li>
-		        	<li>Mussarela<span>R$50 - R$60 - R$70</span>
+		        	<li>Mussarela<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, rodelas de tomate e orégano</li>
                         </ul>
                     </li>
-		        	<li>Portuguesa<span>R$50 - R$60 - R$70</span>
+		        	<li>Portuguesa<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, ovos, palmito, pimentão, ervilha, presunto e cebola</li>
                         </ul>
                     </li>
-		        	<li>Marguerita<span>R$50 - R$60 - R$70</span>
+		        	<li>Marguerita<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, rodelas de tomate e manjericão</li>
                         </ul>
                     </li>
-		        	<li>Napolitana<span>R$50 - R$60 - R$70</span>
+		        	<li>Napolitana<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, rodelas de tomate, queijo parmesão e orégano</li>
                         </ul>
                     </li>
-		        	<li>Palmito<span>R$50 - R$60 - R$70</span>
+		        	<li>Palmito<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, palmito e orégano</li>
                         </ul>
                     </li>
-		        	<li>Quatro Queijos<span>R$50 - R$60 - R$70</span>
+		        	<li>Quatro Queijos<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, provolone, parmesão e catupiry</li>
                         </ul>
                     </li>
-		        	<li id="divisor2">Especiais<span>25cm 30cm 35cm</span></li>
-		        	<li>Basca<span>R$50 - R$60 - R$70</span>
+		        	<li id="divisor2">Especiais</li>
+		        	<li>Basca<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Bacon fatiado, tomates picados e requeijão</li>
                         </ul>
                     </li>
-		        	<li>Atum<span>R$50 - R$60 - R$70</span>
+		        	<li>Atum<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, atum, cebola e orégano</li>
                         </ul>
                     </li>
-		        	<li>Milho e Bacon<span>R$50 - R$60 - R$70</span>
+		        	<li>Milho e Bacon<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, milho e bacon fatiado</li>
                         </ul>
                     </li>
-		        	<li>Alho e Óleo<span>R$50 - R$60 - R$70</span>
+		        	<li>Alho e Óleo<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, alho e queijo parmesão</li>
                         </ul>
                     </li>
-                    <li>Toscana<span>R$50 - R$60 - R$70</span>
+                    <li>Toscana<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Linguiça calabresa, bacon e catupiry</li>
                         </ul>
                     </li>
-                    <li>Frango<span>R$50 - R$60 - R$70</span>
+                    <li>Frango<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela e frango fatiado</li>
                         </ul>
                     </li>
-                    <li>Espanhola<span>R$50 - R$60 - R$70</span>
+                    <li>Espanhola<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela, presunto, calabresa e cebola</li>
                         </ul>
                     </li>
-                    <li>Havaiana<span>R$50 - R$60 - R$70</span>
+                    <li>Havaiana<input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                              <li class="descrição">Mussarela, lombo e abacaxi</li>
                         </ul>
@@ -96,39 +96,38 @@
         	</div>
             <div class="lista2">
                 <ul class="doces"><div>Doces</div>
-                    <li id="divisor3">Sabores<span>25cm 30cm 35cm</span>
-                    </li>
-                    <li>Chocolate<span>R$50 - R$60 - R$70</span>
+                    <li id="divisor3">Sabores</li>
+                    <li>Chocolate <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Chocolate preto ou branco</li>
                         </ul>
                     </li>
-                    <li>Prestígio<span>R$50 - R$60 - R$70</span>
+                    <li>Prestígio <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Chocolate, coco ralado e leite condensado</li>
                         </ul>
                     </li>
-                    <li>Romeu e Julieta<span>R$50 - R$60 - R$70</span>
+                    <li>Romeu e Julieta <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Mussarela e goiabada</li>
                         </ul>
                     </li>
-                    <li>Beijinho<span>R$50 - R$60 - R$70</span>
+                    <li>Beijinho <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Chocolate branco, coco e leite condensado</li>
                         </ul>
                     </li>
-                    <li>M&M<span>R$50 - R$60 - R$70</span>
+                    <li>M&M <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Chocolate e M&Ms</li>
                         </ul>
                     </li>
-                    <li>Banofe<span>R$50 - R$60 - R$70</span>
+                    <li>Banofe <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Banana e doce de leite</li>
                         </ul>
                     </li>
-                    <li>Banana com Canela<span>R$50 - R$60 - R$70</span>
+                    <li>Banana com Canela <input type="button" value="+" value="addItem" class="addButton">
                         <ul>
                             <li class="descrição">Banana caramelizada, leite condensado e canela</li>
                         </ul>
@@ -138,7 +137,7 @@
             <div class="lista3">
                 <ul class="bebidas"><div>Bebidas</div>
                     <li id="divisor4">Refrigerantes</li>
-                    <li>Coca-Cola 1,5L (com ou sem açúcar)</li>
+                    <li>Coca-Cola 1,5L (com ou sem açúcar) </li>
                     <li>Coca-Cola 1L (com ou sem açúcar)</li>
                     <li>Coca-Cola 600mL (com ou sem açúcar)</li>
                     <li>Coca-Cola 350mL (com ou sem açúcar)</li>
