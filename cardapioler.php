@@ -13,9 +13,6 @@
         	<h1 class="cardapio">Cardápio</h1>
         </div>
         <div class="cardown">
-            <div class="botão">
-                <a href="Form_Cardapio.html" class="fazer">Faça seu pedido</a>
-            </div>
         	<div class="lista1">
 	        	<ul class="salgado"> <div>Salgadas</div>
 		        	<li id="divisor1">Tradicionais <span>25cm 30cm 35cm</span></li>
