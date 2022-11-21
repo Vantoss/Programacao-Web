@@ -17,13 +17,13 @@
     <form action="" method="post">
         <div>
             <label>Login</label>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="" required>
         </div>
         <div>
             <label>Senha</label>
             <input type="password" name="" id="" required>
         </div>
-        <input type="submit" value="Logar">
+        <input type="submit" name="send_admin" value="Logar">
     </form>
     </div>
 
