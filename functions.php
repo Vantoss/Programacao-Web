@@ -24,3 +24,12 @@ function loginAdmin($dbconn, $user, $pass){
     }
 
 }
+
+function logoutAdmin(){
+
+    session_start();
+    session_unset();
+    session_destroy();
+    header("location: login_admin.php");
+
+}
