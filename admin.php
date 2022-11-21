@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php session_start(); require 'functions.php'; ?>
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -15,8 +15,10 @@
 		
 		<!-- corpo da pagina -->
 
+		<a href="logout.php">Deslogar</a>
+
 	<?php } else {
-		header("login_admin.php");
+		header("location: login_admin.php");
 	} ?>
 
 
