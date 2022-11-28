@@ -44,7 +44,7 @@
         </div>
 
         <div class="botao">
-            <a class="botaochamar" href="Form_Cardapio.php">Chame agora</a>
+            <a class="botaochamar" href="cardapioler.php">Chame agora</a>
         </div>
     </section>
     <?php require "copiaecolafooter.php";?>
