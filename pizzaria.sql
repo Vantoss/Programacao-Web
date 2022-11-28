@@ -31,7 +31,7 @@ CREATE TABLE `admin` (
   `id` int(11) NOT NULL,
   `login` varchar(50) NOT NULL,
   `senha` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -45,8 +45,8 @@ CREATE TABLE `pizzas` (
   `idPizza` int(11) NOT NULL,
   `categoria` varchar(50) NOT NULL,
   `sabor` varchar(50) NOT NULL,
-  `descricao` varchar(100) NOT NULL,
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `descricao` varchar(100) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -67,7 +67,7 @@ CREATE TABLE usuarios (
   email varchar(100) NOT NULL,
   observacoes text NOT NULL,
   data_cadastro datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- Índices para tabelas despejadas
