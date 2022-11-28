@@ -38,7 +38,7 @@
       z-index: 2;
     }
 
-    .form-signin input[type="email"] {
+    .form-signin input[type="text"] {
       margin-bottom: -1px;
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;
@@ -65,19 +65,19 @@
 
     
 <main class="form-signin">
-  <form>
+  <form action="" method="post">
     <h1 class="h3 mb-3 fw-normal">Login</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="admin_login" placeholder="Login">
+      <input type="text" name="login" class="form-control" id="admin_login" placeholder="Login">
       <label for="admin_login">Usuário</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="admin_senha" placeholder="Senha">
+      <input type="password" name="senha" class="form-control" id="admin_senha" placeholder="Senha">
       <label for="admin_senha">Senha</label>
     </div>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+    <input class="w-100 btn btn-lg btn-primary" name="send_admin" type="submit" value="Entrar"></input>
     <p class="mt-5 mb-3 text-muted">&copy; Pizzaria ADS</p>
   </form>
 </main>
