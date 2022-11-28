@@ -3,14 +3,58 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="login_admin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <title>Login Admin</title>
 
+    <style type="text/css">
+        
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #f5f5f5;
+    }
+
+    .form-signin {
+      width: 100%;
+      max-width: 330px;
+      padding: 15px;
+      margin: auto;
+    }
+
+    .form-signin .checkbox {
+      font-weight: 400;
+    }
+
+    .form-signin .form-floating:focus-within {
+      z-index: 2;
+    }
+
+    .form-signin input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+        </style>
+
 </head>
-<body>
+
+<body class="text-center">
 
     <?php
         if (isset($_POST['send_admin'])) {
@@ -18,20 +62,30 @@
         }
     ?>
 
-    <div class="box">
-    <h1>Login</h1>
-    <form action="" method="post">
-        <div>
-            <label>Login</label>
-            <input type="text" name="login" id="" required>
-        </div>
-        <div>
-            <label>Senha</label>
-            <input type="password" name="senha" id="" required>
-        </div>
-        <input type="submit" name="send_admin" value="Logar">
-    </form>
+
+    
+<main class="form-signin">
+  <form>
+    <h1 class="h3 mb-3 fw-normal">Login</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="admin_login" placeholder="Login">
+      <label for="admin_login">Usuário</label>
     </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="admin_senha" placeholder="Senha">
+      <label for="admin_senha">Senha</label>
+    </div>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+    <p class="mt-5 mb-3 text-muted">&copy; Pizzaria ADS</p>
+  </form>
+</main>
+
+
+    
+  </body>
+          
 
 </body>
 </html>

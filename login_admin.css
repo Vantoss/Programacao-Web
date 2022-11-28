@@ -1,5 +1,12 @@
-.box{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+form{
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  right: 33%; 
+}
+
+h1{
+  position: absolute;
+  top: 30%;
+  left: 47%;
 }
