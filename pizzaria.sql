@@ -54,19 +54,19 @@ CREATE TABLE `pizzas` (
 -- Estrutura da tabela `usuarios`
 --
 
-CREATE TABLE `usuarios` (
-  `id` int(11) NOT NULL,
-  `nome` varchar(50) NOT NULL,
-  `senha` int(11) NOT NULL,
-  `genero` int(11) NOT NULL,
-  `CPF` int(11) NOT NULL,
-  `data_nasc` date NOT NULL,
-  `CEP` int(11) NOT NULL,
-  `complemento` varchar(20) NOT NULL,
-  `contato` int(11) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `observacoes` text NOT NULL,
-  `data_cadastro` datetime NOT NULL
+CREATE TABLE usuarios (
+  id int(11) NOT NULL,
+  nome varchar(50) NOT NULL,
+  senha varchar(20) NOT NULL,
+  genero varchar(50) NOT NULL,
+  CPF varchar(11) NOT NULL,
+  data_nasc date NOT NULL,
+  CEP varchar(8) NOT NULL,
+  complemento varchar(20) NOT NULL,
+  contato varchar(11) NOT NULL,
+  email varchar(100) NOT NULL,
+  observacoes text NOT NULL,
+  data_cadastro datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
