@@ -30,7 +30,7 @@
                 <img class="imglado" src="imagens/pizzahorario.jpg" alt="Imagem de uma pizza">
             </div>
             <div class="botao">
-                <a class="botaochamar" href="">Chame agora</a>
+                <a class="botaochamar" href="cardapioler.php">Chame agora</a>
             </div>
         </div>
     </main>
