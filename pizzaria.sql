@@ -35,6 +35,21 @@ CREATE TABLE `admin` (
 
 -- --------------------------------------------------------
 
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `pizzas`
+--
+
+CREATE TABLE `pizzas` (
+  `idPizza` int(11) NOT NULL,
+  `categoria` varchar(50) NOT NULL,
+  `sabor` varchar(50) NOT NULL,
+  `descricao` varchar(100) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
 --
 -- Estrutura da tabela `usuarios`
 --
@@ -71,6 +86,13 @@ ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
 --
+--
+-- Índices para tabela `pizzas`
+--
+ALTER TABLE `pizzas`
+  ADD PRIMARY KEY (`idPizza`);
+
+--
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
@@ -79,6 +101,13 @@ ALTER TABLE `usuarios`
 --
 ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+--
+-- AUTO_INCREMENT de tabela `admin`
+--
+ALTER TABLE `pizzas`
+  MODIFY `idPizza` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`
