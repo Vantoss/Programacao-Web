@@ -48,6 +48,16 @@ CREATE TABLE `pizzas` (
   `descricao` varchar(100) NOT NULL
 ) DEFAULT CHARSET=utf8mb4;
 
+--
+-- Estrutura da tabela `bebidas`
+--
+
+CREATE TABLE `bebidas` (
+  `idBebida` int(11) NOT NULL,
+  `nome` varchar(50) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
+
+
 -- --------------------------------------------------------
 
 --
@@ -92,6 +102,9 @@ ALTER TABLE `usuarios`
 ALTER TABLE `pizzas`
   ADD PRIMARY KEY (`idPizza`);
 
+ALTER TABLE `bebidas`
+  ADD PRIMARY KEY (`idBebida`);
+
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
@@ -108,6 +121,9 @@ ALTER TABLE `admin`
 --
 ALTER TABLE `pizzas`
   MODIFY `idPizza` int(11) NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `bebidas`
+  MODIFY `idBebidas` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`
