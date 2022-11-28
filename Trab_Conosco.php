@@ -8,61 +8,46 @@
 </head>
 <body>
 	<?php require "copiaecola.php";?>
-	<div> 
+	<div class="trabupper"> 
 		<h1>Trabalhe Conosco</h1>
 	</div>
-	
-	<form>
-		<div>
-			<label>Nome Completo<span>*</span></label>
-			<input id="nome" maxlength="10" minlength="4" required type="text" name="name">
-		</div>
+	<main>
+		<form class="form">
+			<div>
+				<label>Nome Completo:</label>
+				<input id="nome" maxlength="10" minlength="4" required type="text" name="name">
+			</div>
 
-		<div>
-			<label>CPF</label>
+			<div>
+				<label>CPF:</label>
 				<input required type="text" placeholder="Apenas números">
-		</div>
+			</div>
 
-		<div>
-			<label>E-mail<span>*</span></label>
-			<input required type="email" name="email" placeholder="exemplo@exemplo.com">
-		</div>
+			<div>
+				<label>E-mail:</label>
+				<input required type="email" name="email" placeholder="exemplo@exemplo.com">
+			</div>
 
-		<div>
-			<label>Telefone</label>
-			<input type="tel" name="telefone" placeholder="Apenas números" maxlength="11">
-		</div>
+			<div>
+				<label>Telefone:</label>
+				<input type="tel" name="telefone" placeholder="Apenas números" maxlength="11" required>
+			</div>
 
-		<div>
-			<label>Área de Interesse</label>
-			<datalist id="áreas">
-				<option>--Selecione--</option>
-				<option>Logística</option>
-				<option>Financeiro</option>
-				<option>Recursos Humanos</option>
-				<option>Cozinha</option>
-				<option>Limpeza</option>
-				<option>Garçons</option>
-			</datalist>
-		</div>
+			<div>
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="campo_observacao" placeholder="Faça uma breve descrição de si mesmo e de suas competências" maxlength="400" required></textarea>
+			</div>
 
-		<div>
-			<label for="mensagem">Mensagem</label>
-		</div>
+			<div>
+				<label>Anexar Currículo:</label>
+				<input type="file" name="arquivo" class="arquivo">
+			</div>
 
-		<div>
-			<textarea id="mensagem" name="campo_observacao" placeholder="Faça uma breve descrição de si mesmo e de suas competências" maxlength="400"></textarea>
-		</div>
-
-		<div>
-			<label>Anexar Currículo</label>
-			<input type="file" name="arquivo">
-			
-		</div>
-		<input type="reset" name="limpar" value="Limpar">
-		<button name="enviar">Enviar</button>		
-	</form>
-	
+			<input type="reset" name="limpar" value="Limpar" class="limpar">
+			<input type="submit" name="enviar" value="Cadastrar" class="cadastrar">
+			<!--<button name="enviar">Enviar</button>-->	
+		</form>
+	</main>
 	<?php require "copiaecolafooter.php";?>
 </body>
 
