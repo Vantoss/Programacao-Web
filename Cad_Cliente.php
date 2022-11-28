@@ -61,6 +61,10 @@
 				<input required type="email" name="email" placeholder="exemplo@exemplo.com">
 			</div>
 			<div>
+				<label>Foto 3x4:</label>
+				<input type="file" name="foto">
+			</div>
+			<div>
 				<label>Observações/Comentários:</label>
 				<div>
 				<textarea id="mensagem" name="campo_observacao" placeholder="Limite de 100 caracteres" maxlength="100"></textarea>
