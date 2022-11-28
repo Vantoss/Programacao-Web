@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+.promoupper{
+    border-bottom: 4px solid #B39B72;
+    overflow: hidden;
+}
 h1{
     color: #886839;
     font-size: 62px;
@@ -8,10 +12,8 @@ h1{
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 40px;
-    border-bottom: 4px solid #B39B72;
-    padding: 5%;
 }
-.anuncio{
+.anuncio1{
     background-color: whitesmoke;
     width: 500px;
     border: 5px solid #886839;
@@ -23,7 +25,23 @@ h1{
     align-items: center;
     justify-content: center;
 }
-.anuncio img{
+.anuncio2{
+    background-color: whitesmoke;
+    width: 500px;
+    border: 5px solid #886839;
+    padding: 10px;
+    margin: 10px;
+    color: #886839;
+    font-family: Josefin sans, sans-serif;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.anuncio1 img{
+    width: 150px;
+    height: 150px;
+}
+.anuncio2 img{
     width: 150px;
     height: 150px;
 }
