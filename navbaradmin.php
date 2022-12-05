@@ -27,7 +27,7 @@
           </ul>
         </li>
       </ul>
-      <button type="button" class="btn btn-outline-light">Deslogar</button>
+      <a class='btn btn-outline-light' href='logout.php'>Deslogar</a>   
     </div>
   </div>
 </nav>
