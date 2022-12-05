@@ -8,7 +8,6 @@
 
 ?>
 
-<div style="overflow: scroll;">
 	<div class="m-5">
 		<table class="table table-bs">
 			<thead>
@@ -30,10 +29,9 @@
 						echo "<td>
 							<a class='btn btn-danger' href='deletarAdmin.php?id=$dadosAdmin[id]'>Excluir</a>
 						</td>";
-						echo "<tr>";
+						echo "</tr>";
 					}
 				?>
 			</tbody>
 		</table>
 	</div>
-</div>
