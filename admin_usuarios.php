@@ -4,7 +4,7 @@
 
 	$total_reg = "5";
 
-	$pagina = $_GET['pagina'];
+	$pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 1;
 	if (!$pagina) {
 	$pc = "1";
 	} else {
@@ -18,6 +18,9 @@
 	{
 		$dados = $_GET['pesquisa'];
 		$sqlUsuario = "SELECT * FROM usuarios WHERE nome LIKE '%$dados%' ORDER BY id";
+		$queryS = mysqli_query($dbconn, $sqlUsuario);
+		$total_registros = mysqli_num_rows($queryS);
+		$total_pagina = $total_registros / $total_reg;
 	}
 	else
 	{
