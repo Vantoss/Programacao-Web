@@ -166,3 +166,38 @@ li span{
 	background-color: #57754f; 
 	color:#1b3606;
 }
+.escolhaTamanho{
+	margin: 35px 38%;
+	font-size: 25px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+    color: #886839;
+	line-height: 40px;
+}
+.escolhaTamanho label{
+	font-weight: bold;
+}
+.escolhaTamanho span{
+	font-size: 15px;
+	color:#886839b4
+}
+#botao{
+	margin-top: 30px;
+	width: 100%;
+	font-size: 25px;
+	background-color: #09ab009f;
+	border-color:#09ab00e5;
+	border-style:solid;
+	border-radius: 5px 5px;
+	height: 40px;
+	color:#064702;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#botao:hover{
+	background-color: #09ab00be;
+	border-color:#09ab00f3;
+}
+#botao:active{
+	background-color: #08a100da;
+	border-color:#089c00fd;
+}
