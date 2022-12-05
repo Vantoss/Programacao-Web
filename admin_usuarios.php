@@ -1,6 +1,18 @@
 <?php require "admin.php";?>
 
-<?php 
+<?php
+
+	$total_reg = "5";
+
+	$pagina = $_GET['pagina'];
+	if (!$pagina) {
+	$pc = "1";
+	} else {
+	$pc = $pagina;
+	}
+
+	$inicio = $pc - 1;
+	$inicio = $inicio * $total_reg;
 
 	if(!empty($_GET['pesquisa']))
 	{
@@ -9,7 +21,11 @@
 	}
 	else
 	{
-		$sqlUsuario = "SELECT * FROM usuarios ORDER BY id";
+		$sqlUsuarioTotal = "SELECT * FROM usuarios";
+		$query = mysqli_query($dbconn, $sqlUsuarioTotal);
+		$sqlUsuario = "SELECT * FROM usuarios ORDER BY id LIMIT $inicio, $total_reg";
+		$total_registros = mysqli_num_rows($query);
+		$total_pagina = $total_registros / $total_reg;
 	}
 	
 
@@ -59,7 +75,18 @@
 		</tbody>
 	</table>
 </div>
-
+<ul class="pagination d-flex justify-content-center">
+<?php
+	$anterior = $pc -1;
+	$proximo = $pc +1;
+	if ($pc>1) {
+	echo "<li class='page-item'><a class='page-link' href='?pagina=$anterior'>Anterior</a></li>";
+	}
+	if ($pc<$total_pagina) {
+	echo "<li class='page-item'><a class='page-link' href='?pagina=$proximo'>Próxima</a></li>";
+	}
+?>
+</ul>
 <script>
 	var pesquisa = document.getElementById('pesquisar');
 
