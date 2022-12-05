@@ -9,6 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Admin</title>
 
+	<style>
+
+		.table-bs{
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px 10px 0 0;
+        }
+
+	</style>
+
 </head>
 <body>
 	<?php require "navbaradmin.php";?>
@@ -17,7 +26,6 @@
 		
 		<!-- corpo da pagina -->
 
-		<a href="logout.php">Deslogar</a>
 
 	<?php } else {
 		header("location: login_admin.php");

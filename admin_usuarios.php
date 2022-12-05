@@ -8,33 +8,38 @@
 
 ?>
 
-<div style="overflow: scroll;">
-	<table class="table">
-		<thead>
-			<tr>
-				<th scope="col">ID</th>
-				<th scope="col">Nome</th>
-				<th scope="col">E-mail</th>
-				<th scope="col">Senha</th>
-				<th scope="col">CPF</th>
-				<th scope="col">Contato</th>
-				<th scope="col">Excluir</th>
-			</tr>
-		</thead>
-		<tbody>
-			<?php 
-				while ($dadosUsuario = mysqli_fetch_assoc($queryUsuario)) 
-				{
-					echo "<tr>";
-					echo "<td>" . $dadosUsuario['id'] . "</td>";
-					echo "<td>" . $dadosUsuario['nome'] . "</td>";
-					echo "<td>" . $dadosUsuario['email'] . "</td>";
-					echo "<td>" . $dadosUsuario['senha'] . "</td>";
-					echo "<td>" . $dadosUsuario['CPF'] . "</td>";
-					echo "<td>" . $dadosUsuario['contato'] . "</td>";
-					echo "<tr>";
-				}
-			?>
-		</tbody>
-	</table>
+<div style="overflow: scroll; height: 800px;">
+	<div class="m-5">
+		<table class="table table-bs">
+			<thead>
+				<tr>
+					<th scope="col">ID</th>
+					<th scope="col">Nome</th>
+					<th scope="col">E-mail</th>
+					<th scope="col">Senha</th>
+					<th scope="col">CPF</th>
+					<th scope="col">Contato</th>
+					<th scope="col">Ação</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php 
+					while ($dadosUsuario = mysqli_fetch_assoc($queryUsuario)) 
+					{
+						echo "<tr>";
+						echo "<td>" . $dadosUsuario['id'] . "</td>";
+						echo "<td>" . $dadosUsuario['nome'] . "</td>";
+						echo "<td>" . $dadosUsuario['email'] . "</td>";
+						echo "<td>" . $dadosUsuario['senha'] . "</td>";
+						echo "<td>" . $dadosUsuario['CPF'] . "</td>";
+						echo "<td>" . $dadosUsuario['contato'] . "</td>";
+						echo "<td>
+							<a class='btn btn-danger' href='deletarUsuario.php?id=$dadosUsuario[id]'>Excluir</a>
+						</td>";
+						echo "<tr>";
+					}
+				?>
+			</tbody>
+		</table>
+	</div>
 </div>
