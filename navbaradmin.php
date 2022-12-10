@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Página Administrativa</a>
+    <a class="navbar-brand" href="admin.php">Página Administrativa</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,7 +15,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="admin_usuariosadmin.php">Ver</a></li>
-            <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="admin_cadastro.php">Cadastrar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">

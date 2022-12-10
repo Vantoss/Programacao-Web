@@ -78,16 +78,24 @@
 		</tbody>
 	</table>
 </div>
-<ul class="pagination d-flex justify-content-center">
+<ul class="pagination d-flex justify-content-center" >
 <?php
 	$anterior = $pc -1;
 	$proximo = $pc +1;
 	if ($pc>1) {
 	echo "<li class='page-item'><a class='page-link' href='?pagina=$anterior'>Anterior</a></li>";
 	}
+	if ($pc == 1) {
+	echo "<li class='page-item disabled'><a class='page-link' href='?pagina=$anterior'>Anterior</a></li>";
+	}
+	echo "<li class='page-item disabled'><a class='page-link'>$pc</a></li>";
 	if ($pc<$total_pagina) {
 	echo "<li class='page-item'><a class='page-link' href='?pagina=$proximo'>Próxima</a></li>";
 	}
+	if ($pc >= $total_pagina) {
+	echo "<li class='page-item disabled'><a class='page-link' href='?pagina=$proximo'>Próxima</a></li>";
+	}
+	
 ?>
 </ul>
 <script>

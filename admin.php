@@ -12,16 +12,29 @@
 	<style>
 
 		.table-bs{
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 10px 10px 0 0;
-        }
+        background: rgba(0, 0, 0, 0.2);
+        border-radius:  10px 10px 0 0;
+    }
 
 		.box-search{
-            display: flex;
-            justify-content: center;
-            gap: .1%;
-			margin-top: 30px;
-        }
+        display: flex;
+        justify-content: center;
+        gap: .1%;
+				margin-top: 30px;
+    }
+
+    .form_cadastro{
+    	  
+	    	margin: 60px auto;
+	    	width: 500px; 
+	    	padding: 20px; 
+	    	border-radius: 10px;
+	    	background-color: white;
+	  }
+
+	  body{
+	  	background-color: #f5f5f5;
+	  }
 
 	</style>
 

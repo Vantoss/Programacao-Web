@@ -69,14 +69,15 @@
     <h1 class="h3 mb-3 fw-normal">Login</h1>
 
     <div class="form-floating">
-      <input type="text" name="login" class="form-control" id="admin_login" placeholder="Login">
+      <input type="text" name="login" class="form-control" id="admin_login" placeholder="Login" required>
       <label for="admin_login">Usuário</label>
     </div>
     <div class="form-floating">
-      <input type="password" name="senha" class="form-control" id="admin_senha" placeholder="Senha">
+      <input type="password" name="senha" class="form-control" id="admin_senha" placeholder="Senha" required>
       <label for="admin_senha">Senha</label>
     </div>
     </div>
+    <?php echo $_SESSION['msg']; ?>
     <input class="w-100 btn btn-lg btn-primary" name="send_admin" type="submit" value="Entrar"></input>
     <p class="mt-5 mb-3 text-muted">&copy; Pizzaria ADS</p>
   </form>
