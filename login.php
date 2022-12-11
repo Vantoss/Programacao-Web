@@ -1,3 +1,4 @@
+<?php require "loginUserFunc.php";?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<?php require "copiaecola.php"?>
+		<?php require "copiaecola.php";?>
 	</header>
 	<main>
 		<div class="box">
@@ -26,7 +27,7 @@
 		</div>
 	</main>
 	<footer>
-		<?php require "copiaecolafooter.php"?>
+		<?php require "copiaecolafooter.php";?>
 	</footer>
 </body>
 </html>
