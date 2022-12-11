@@ -67,3 +67,10 @@ function logoutAdmin(){
     header("location: login_admin.php");
 
 }
+
+function logoutUser(){
+    session_start();
+    session_unset();
+    session_destroy();
+    header("location: login.php");
+}

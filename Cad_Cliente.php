@@ -1,3 +1,4 @@
+<?php require "cadClienteFunc.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,7 +13,7 @@
 		<h1>Cadastro do Cliente</h1>
 	</div>
 	<main>
-		<form class="form">
+		<form action="" method="post" class="form">
 			<div>
 				<label>Nome Completo:</label>
 				<input required id="nome" maxlength="15" minlength="4" type="text" name="nome" placeholder="Nome Completo">
@@ -24,21 +25,21 @@
 			<div class="genero">
 				<label>Gênero:</label>
 				<label>Feminino
-					<input type="radio" name="genero" value="Feminino" class="checagem">
+				<input type="radio" name="genero" value="Feminino" class="checagem">
 				</label>
 				<label>Masculino
-					<input type="radio" name="genero" value="Masculino" class="checagem">
+				<input type="radio" name="genero" value="Masculino" class="checagem">
 				</label>
 				<label>Não-Binário
-					<input type="radio" name="genero" value="Não Binário" class="checagem">
+				<input type="radio" name="genero" value="Não Binário" class="checagem">
 				</label>
 				<label>Prefiro não responder
-					<input type="radio" name="genero" value="Prefiro não responder" class="checagem">
+				<input type="radio" name="genero" value="Prefiro não responder" class="checagem">
 				</label>
 			</div>
 			<div>
 				<label>CPF:</label>
-					<input required type="text" name="cpf" placeholder="Apenas números">
+				<input required type="text" minlength="11" name="cpf" placeholder="Apenas números">
 			</div>
 			<div>
 				<label>Data de nascimento:</label>
@@ -46,7 +47,7 @@
 			</div>
 			<div>
 				<label>CEP:</label>
-				<input required type="text">
+				<input required type="text" name="CEP">
 			</div>
 			<div>
 				<label>Complemento:</label>
@@ -59,10 +60,6 @@
 			<div>
 				<label>E-mail:</label>
 				<input required type="email" name="email" placeholder="exemplo@exemplo.com">
-			</div>
-			<div>
-				<label>Foto 3x4:</label>
-				<input type="file" name="foto">
 			</div>
 			<div>
 				<label>Observações/Comentários:</label>

@@ -30,8 +30,11 @@
 			<p class="text2">Complemento:</p>
 			<p class="text2">Observações:</p>
 		</div>
-		<div class="botao">
+		<div class="botao1">
 			<a href="" class="editar">Editar perfil</a>
+		</div>
+		<div class="botao2">
+			<a href="logoutUSER.php" class="sair">Sair</a>
 		</div>
 	</main>
 	<?php require "copiaecolafooter.php"?>

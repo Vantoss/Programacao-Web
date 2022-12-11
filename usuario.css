@@ -71,12 +71,26 @@ main{
     color: #886839;
     margin-left: 50px;
 }
-.botao{
-    text-align: center;
+.botao1{
     margin-top: 30px;
+    text-align: center;
+}
+.botao2{
+    margin-top: 50px;
+    text-align: center;
 }
 .editar{
     background-color: #09AB00;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 100px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sair{
+    background-color: #B51E00;
     font-family: 'Josefin Sans', sans-serif;
     border: 1px solid black;
     color: white;
