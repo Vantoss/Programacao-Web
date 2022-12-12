@@ -17,16 +17,21 @@ function loginAdmin($dbconn, $user, $pass){
     if (isset($_POST['send_admin'])){
 
 
-        $sql = "SELECT login, senha FROM admin WHERE login = '$user' AND senha = '$pass'";
+        $sql = "SELECT login, senha, master FROM admin WHERE login = '$user' AND senha = '$pass'";
         $query = mysqli_query($dbconn, $sql);
         $result = mysqli_fetch_assoc($query);
 
         if(!isset($result)){
-            $result = array('login' => ' ', 'senha' => ' ');
+            $result = array('login' => NULL, 'senha' => NULL);
         }
 
         if ($user == $result['login'] && $pass == $result['senha']) {
             session_start();
+            if($result['master'] == 1){
+                $_SESSION['adminMaster'] = TRUE;
+            } else {
+                $_SESSION['adminMaster'] = FALSE;
+            }
             $_SESSION['adminSession'] = TRUE;
             header("location: admin.php");
         }
