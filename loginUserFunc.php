@@ -20,6 +20,13 @@ function login($conecta, $email, $senha){
 		if (!empty($resultado)){
 			session_start();
 			$_SESSION['ativa'] = TRUE;
+			$_SESSION['user'] = $resultado['nome'];
+			$_SESSION['email'] = $resultado['email'];
+			$_SESSION['cpf'] = $resultado['CPF'];
+			$_SESSION['contato'] = $resultado['contato'];
+			$_SESSION['cep'] = $resultado['CEP'];
+			$_SESSION['comp'] = $resultado['complemento'];
+			$_SESSION['obs'] = $resultado['observacoes'];
 			header("location: usuario.php");
 		}
 	}
