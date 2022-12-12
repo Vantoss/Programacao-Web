@@ -16,8 +16,9 @@ function loginAdmin($dbconn, $user, $pass){
 
     if (isset($_POST['send_admin'])){
 
+        $sha1pass = sha1($pass);
 
-        $sql = "SELECT login, senha, master FROM admin WHERE login = '$user' AND senha = '$pass'";
+        $sql = "SELECT login, senha, master FROM admin WHERE login = '$user' AND senha = '$sha1pass'";
         $query = mysqli_query($dbconn, $sql);
         $result = mysqli_fetch_assoc($query);
 
@@ -25,7 +26,7 @@ function loginAdmin($dbconn, $user, $pass){
             $result = array('login' => NULL, 'senha' => NULL);
         }
 
-        if ($user == $result['login'] && $pass == $result['senha']) {
+        if ($user == $result['login'] && $sha1pass == $result['senha']) {
             session_start();
             if($result['master'] == 1){
                 $_SESSION['adminMaster'] = TRUE;
@@ -49,7 +50,8 @@ function loginAdmin($dbconn, $user, $pass){
 function cadastroAdmin($dbconn, $user, $pass, $master){
     if (!empty($user) AND !empty($pass)){
 
-        $sql = "INSERT INTO admin (login, senha, master) VALUES ('$user' , '$pass' , '$master')";
+        $sha1pass = sha1($pass);
+        $sql = "INSERT INTO admin (login, senha, master) VALUES ('$user' , '$sha1pass' , '$master')";
         $query = mysqli_query($dbconn, $sql);
 
         if($query){
